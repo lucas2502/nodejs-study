@@ -6,19 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/lucas2502/nodejs-study.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas2502/nodejs-study.git"
+  },
   "keywords": [],
-  "author": "lucas2502 <lucas2502@live.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucas2502/nodejs-study/issues"
   },
   "homepage": "https://github.com/lucas2502/nodejs-study#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.5.2"
+    "mongoose": "^5.5.2",
+    "request": "^2.88.0"
   }
 }
