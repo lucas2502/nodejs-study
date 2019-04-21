@@ -15,5 +15,5 @@ router.get('/', (req, res) => {
 app.use('/api', router);
 
 app.listen(port);
-console.log("iniciando o app na porta" + port);
+console.log("iniciando o app na porta: " + port);
 
